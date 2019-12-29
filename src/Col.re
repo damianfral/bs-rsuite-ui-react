@@ -9,25 +9,25 @@ external make:
     ~componentClass: unit => React.element=?,
 
     ~lg: int=?,
-    ~lgHidden: int=?,
+    ~lgHidden: bool=?,
     ~lgOffset: int=?,
     ~lgPull: int=?,
     ~lgPush: int=?,
 
     ~md: int=?,
-    ~mdHidden: int=?,
+    ~mdHidden: bool=?,
     ~mdOffset: int=?,
     ~mdPull: int=?,
     ~mdPush: int=?,
 
     ~sm: int=?,
-    ~smHidden: int=?,
+    ~smHidden: bool=?,
     ~smOffset: int=?,
     ~smPull: int=?,
     ~smPush: int=?,
 
     ~xs: int=?,
-    ~xsHidden: int=?,
+    ~xsHidden: bool=?,
     ~xsOffset: int=?,
     ~xsPull: int=?,
     ~xsPush: int=?
