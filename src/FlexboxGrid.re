@@ -29,7 +29,20 @@ module Item = {
       
       ~colspan: int=?,
       ~order: int=?,
-      ~componentClass: unit => React.element=?
+      ~componentClass: unit => React.element=?,
+
+      ~lg: int=?,
+      ~lgHidden: bool=?,
+
+      ~md: int=?,
+      ~mdHidden: bool=?,
+
+      ~sm: int=?,
+      ~smHidden: bool=?,
+
+      ~xs: int=?,
+      ~xsHidden: bool=?
+
     ) =>
     React.element =
     "Item";
